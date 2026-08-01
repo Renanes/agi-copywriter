@@ -1,0 +1,30 @@
+# Environment variables (NEVER commit real keys)
+.env
+
+# Videos (large binary files, possibly copyrighted)
+videos/
+
+# Transcriptions (derived from copyrighted videos)
+transcriptions.json
+
+# SQLite session database
+tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS system files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
